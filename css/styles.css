@@ -1,0 +1,189 @@
+#title{
+    background-color: #ff3654;
+    color: white;
+}
+body{
+    font-family: 'Montserrat-black', sans-serif;
+}
+
+h1{
+     font-family: 'Montserrat-black', sans-serif;
+     font-size:3.5rem;
+     line-height: 1.5;
+}
+h2{
+    font-family:'Montserrat-black' ;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: 'Montserrat-black';
+}
+p{
+    color: grey;
+}
+
+
+
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.Download-btn{
+  margin: 15px 10px 0px;
+}
+
+
+.icon{
+    color: #f27362;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color:  #ff3654;
+}
+
+/* phone-img */
+.phone-img{
+    transform: rotate(30deg);
+    position: absolute;
+    width:45%;
+ 
+}
+
+
+/* navbar */
+.navbar{
+    padding-bottom: 8%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+
+.nav-item{
+    padding: 0 20px;
+}
+
+.nav-link{
+    font-size:20px;
+
+}
+
+/* features */
+
+#features {
+   padding: 7% 15%;
+   background-color: #fff;
+   position: relative;
+   z-index: 1;
+}
+.feature-box{
+   text-align: center;
+   padding: 5%;
+}
+
+
+
+/* testimonials */
+#testimonials{
+    padding: 7% 10%;
+    text-align: center;
+    background-color:   #ff3654;
+    color:  #fff;
+}
+#testimonials img{
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+
+}
+#press{
+    background-color:   #ff3654;
+    text-align: center;
+    padding-bottom: 5% ;
+}
+#press img{
+    
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
+   
+}
+
+
+
+
+/* prising */
+#pricing{
+    padding: 5%;
+    text-align: center;
+}
+
+.row{
+    justify-content: center;
+    /* padding-top: 2%; */
+
+}
+
+
+/* Z-index */
+
+
+/* media */
+@media (max-width:1113px){
+    .phone-img{
+        transform: rotate(0deg);
+        position: static;
+        width:60%;
+        margin-top: 30px;
+    }
+    .nav-item{
+        padding: 0 10px;
+    }
+    
+}
+@media (max-width:997px){
+    .phone-img{
+        transform: rotate(0deg);
+        position: static;
+        width:45%;
+        margin-top: 30px;
+    }
+    #title{
+        text-align: center;
+    }
+    #title h1{
+       /* padding: 0 10%; */
+       font-size:55px;
+     
+    }
+    #footer{
+        font-size:45px;
+    }
+}
+
+/*  Call to Action  */
+#cta{
+    padding: 7% 10%;
+    text-align: center;
+    background-color:   #ff3654;
+    color:  #fff;
+}
+#cta h3{
+    font-size: 55px;
+    padding-bottom: 25px;
+}
+
+/* Footer */
+#footer{
+    padding: 7% 5%;  
+    text-align: center;
+}
